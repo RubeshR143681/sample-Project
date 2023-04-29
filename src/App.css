@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background-container{
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+
+.search-input {
+  background-color: white;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  width: 950px;
+  height:36px ;
+  padding-left: 10px;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  margin-left: 130px;
+}
+  
+ 
+.bsbellicon{
+  height: 30px;
+  width: 30px;
+  color: #5D5D5D;
+}
+.top_img{
+  width: 50px;
+  height: 45px;
+  border-radius: 64px;
+}
+.belll_and_smallimag_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+}
+.searchicon_bg{
+     background-color: white;
+     height: 36px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 4px;
+}
+.middle_part_tabs_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.middle_tabs_left_side{
+  margin-left: 100px;
+}
+button{
+  margin-left: 60px;
+  height: 44px;
+  width: 120px;
+  font-size: 20px;
+  background-color: #097150;
+  color: white;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}              
+li{
+  list-style: none;
+  font-size: 22px;
+  color:#ABAFB1;
+}
+.activetab{
+  color: #2B2F32;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+.inputflexdiv{
+  display: flex;
+}
+#firstname{
+  border-width: 0px;
+  height: 29px;
+  border: none;
+  outline: none;
+  width: 245px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.icon_of_input{
+  background-color: white;
+  height: 29px;
+  padding: 5px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+ }
+ label{
+  font-size: 12px;
+ }
+ 
+ .Final_container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  width: 1000px;
+  gap: 90px;
+ }
+ .input_spinner_container{
+  margin-top: 10px;
+ }
+ #otpfiled{
+  border-width: 0px;
+  height: 29px;
+  border: none;
+  outline: none;
+  width: 270px;
+border-radius: 6px;
+ }
+.nationFlag{
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+} 
+select{
+  border: none;
+  outline: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#otpnumfiled{
+  border-width: 0px;
+  height: 29px;
+  border: none;
+  outline: none;
+  width: 190px;
+border-radius: 6px;
+margin-left: 6px;
+}
+.center_image_backgrouind{
+  background-image: url('https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  height: 175px;
+  width: 175px;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.icon_image{
+  background-color: #F8EEE3;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.qucode{
+  height: 75px;
+  width: 75px;
+  margin-left: -90px;
+}
+.orgapantimg{
+  height: 100px;
+  width: 100px;
+}
+.lastcart{
+  display: flex;
+  background-color: #F8EEE3;
+  border: 2px solid #097150;
+  padding: 15px;
+  border-radius: 13px;
+}
+.username{
+  height: 25px;
+  width: 25px;
+}
+.join_text{
+  display: flex;
+  align-items: center;
+  margin-top: -19px;
+}
+.lastcart{
+  margin-left: 20px;
+}
+.userpara{
+  font-size: 12px;
+  margin-left: 20px;
+
+}
+.lfex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.qrhelp{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
